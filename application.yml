@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: common-config
+    name: CommonConfig
 
 logging:
   level:
