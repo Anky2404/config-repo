@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: product-service
+    name: ProductService
   datasource:
     url: jdbc:mysql://localhost:3306/productdb
     username: root
