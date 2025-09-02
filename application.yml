@@ -1,10 +1,9 @@
 spring:
   cloud:
     config:
-      server:
-        git:
-          uri: https://github.com/Anky2404/config-repo.git
-          clone-on-start: true
+      allowOverride: true
+      overrideNone: true
+      overrideSystemProperties: false
 
 eureka:
   client:
