@@ -1,0 +1,12 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: productservice
+
+datasource:
+  url: jdbc:mysql://localhost:3306/productsdb
+  username: root
+  password: root
+  driver-class-name: com.mysql.cj.jdbc.Driver
