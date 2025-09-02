@@ -1,0 +1,12 @@
+server:
+  port: 9009
+
+spring:
+  application:
+    name: adminservice
+
+datasource:
+  url: jdbc:mysql://localhost:3306/admindb
+  username: root
+  password: root
+  driver-class-name: com.mysql.cj.jdbc.Driver
